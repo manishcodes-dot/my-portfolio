@@ -26,12 +26,18 @@ head{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    animation: viewslider 10s infinite pause;
-    
+    animation: viewslider 2s forwards pause;
+    animation: viewrotate 10s infinite pause;
+
+
 }
 @keyframes viewslider{
     from{margin-left: 100%;}
     to{margin-left: 0%;}
+}
+
+@keyframes viewrotate{
+    10%{transform: rotate(180deg);}
 }
 .view:hover {
     background-color: #005f73;
