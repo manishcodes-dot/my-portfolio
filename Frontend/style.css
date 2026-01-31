@@ -8,6 +8,7 @@ header{
     background-color: whitesmoke;
     align-items: center;
     font-family: "saira", sans-serif;
+    
 }
 
 .logo{
@@ -42,4 +43,17 @@ cursor: pointer;
     background-color: black;
     color: white;
 
+}
+
+
+body{
+    background-color: grey;
+    margin: 0px;
+}
+.manish{
+    font-family: "saira";
+    font-size: 40px;
+    margin-top: 200px;
+    margin-left: 200px;
+    
 }
