@@ -2,6 +2,11 @@
 
 
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -55,5 +60,19 @@ body{
     font-size: 40px;
     margin-top: 200px;
     margin-left: 200px;
+    word-spacing: 10px;
     
+}
+
+.hero img{
+    margin-left: 210px;
+    float: left;
+    cursor: pointer;
+}
+
+
+.hero section{
+    margin-left: 600px;
+    float: left;
+
 }
