@@ -56,29 +56,52 @@ body{
     background-color: grey;
     margin: 0px;
 }
+
+.hero class{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+
+}
+
 .manish{
     font-family: "saira";
     font-size: 40px;
+    margin-left: 200px;
+    margin-top: 200px;
+    float: left;
+    display: flex;
+
    
 }
+
+.hero p{
+    font-family: "saira";
+    margin-top: 240px;
+    margin-left: 200px;
+    display: inline-flex;
+    
+    
+   
+   
+}
+
 
 .hero img{
     cursor: pointer;
     display: flex;
-    float: left;
-    align-items: center;
-    
-    
+
+    align-items: column;
+    margin-left:    ;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
     
 
 }
 
 
-.hero section{
-    float: left;
-
-
-}
 
 
 
