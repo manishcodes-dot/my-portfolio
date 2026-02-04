@@ -51,6 +51,7 @@ cursor: pointer;
 }
 
 
+
 body{
     background-color: grey;
     margin: 0px;
@@ -58,21 +59,26 @@ body{
 .manish{
     font-family: "saira";
     font-size: 40px;
-    margin-top: 200px;
-    margin-left: 200px;
-    word-spacing: 10px;
-    
+   
 }
 
 .hero img{
-    margin-left: 210px;
-    float: left;
     cursor: pointer;
+    display: flex;
+    float: left;
+    align-items: center;
+    
+    
+    
+
 }
 
 
 .hero section{
-    margin-left: 600px;
     float: left;
 
+
 }
+
+
+
