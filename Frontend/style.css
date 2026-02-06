@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "saira", sans-serif;
 }
 /* 
 .section{
@@ -63,8 +64,8 @@ cursor: pointer;
 
 
 body{
-    background-color: grey;
-    margin: 0px;
+    background-color: white;
+   
 }
 
 .hero class{
@@ -85,7 +86,7 @@ body{
   order: 0;
   float: left;
   font-size: 40px;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 250px;
   
 }
@@ -100,7 +101,7 @@ body{
   font-size: 20px;
   margin-top: 200px;
   margin-left: 700px;
-  padding-top: 130px;
+  padding-top: 50px;
 
    
 }
@@ -115,7 +116,7 @@ body{
   order: 0;
   margin-top: 100px;
   position: relative;
-  top: 30px;
+  top: 60px;
   right: 180px;
 }
 
