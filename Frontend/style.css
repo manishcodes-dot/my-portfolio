@@ -149,12 +149,13 @@ body{
 
 .about-container {
     display: flex;
-    gap: 500px;
+    gap: 50px;
 }
 
 .about img {
-    width: 350px;
-    border-radius: 50%;
+    width: 1 1px;
+    
+    
     
 }
 
