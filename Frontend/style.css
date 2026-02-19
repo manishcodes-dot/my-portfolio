@@ -1,30 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: "saira", sans-serif;
+    scroll-behavior: smooth;
 }
 
-section{
+section {
     height: 100vh;
     display: flex;
 }
 
 /* Navbar class */
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-    
+
+
 }
 
 .navbar {
     display: flex;
-    align-items: center;      
+    align-items: center;
     justify-content: space-between;
     padding: 5px 40px;
     background-color: white;
@@ -34,13 +35,20 @@ header{
 .logo {
     font-size: 40px;
     font-weight: bold;
+    color: black;
+    
+}
+
+.logo:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     gap: 40px;
-    
+
 }
 
 .nav-links a {
@@ -55,7 +63,7 @@ header{
 }
 
 .nav-btn {
-    
+
     cursor: pointer;
     border: none;
     background-color: white;
@@ -63,25 +71,25 @@ header{
 }
 
 
-.nav-btn:hover{
+.nav-btn:hover {
     text-decoration: underline;
     color: black;
 
 }
 
-body{
+body {
     background-color: white;
-   
+
 }
 
 /* hero class */
 .hero {
     height: 100vh;
     display: flex;
-    align-items: center;       
+    align-items: center;
     justify-content: space-between;
     padding: 0 100px 150px;
-   
+
 }
 
 .hero-text {
@@ -96,7 +104,7 @@ body{
 .hero-text p {
     margin-top: 16px;
     font-size: 18px;
-    
+
 }
 
 .hero-image img {
@@ -110,11 +118,11 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     text-align: center;
 }
 
-.projects-title{
+.projects-title {
     font-size: 30px;
     text-decoration: underline;
     font-weight: bold;
@@ -136,10 +144,11 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     text-align: center;
 }
-.about-title{
+
+.about-title {
     font-size: 30px;
     text-decoration: underline;
     font-weight: bold;
@@ -149,13 +158,12 @@ body{
 
 .about-container {
     display: flex;
-    gap: 50px;
+    gap: 400px;
 }
 
 .about img {
     width: 1 1px;
-    
-    
-    
-}
 
+
+
+}
